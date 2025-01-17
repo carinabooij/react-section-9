@@ -14,6 +14,7 @@ const [enteredPlayerName, setEnteredPlayerName] = useState('');
 function handleClick() {
   // setSubmitted(true);
   setEnteredPlayerName(playerName.current.value);
+  playerName.current.value = '';
 }
 
   return (
